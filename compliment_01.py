@@ -1,8 +1,8 @@
 # FILE NAME - compliment_01.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Dennis Ruggio
+# DATE: 10/1/25
+# BRIEF DESCRIPTION: compliment_01.py lab
 
 
 
@@ -15,7 +15,19 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+def main():
+    compliment()
 
+def compliment():
+    user_answer = input('Would you like a compliment? ')
+
+    if user_answer == 'yes':
+        print('You have wonderful eyes.')
+        print('Thank you for playing.')
+
+    else:
+        print('Thank you for playing.')    
+main()
 
 
 
@@ -67,12 +79,13 @@ Thank you for playing.
 
 1. On a scale of 1 to 10 (where 10 is the hardest), how would you rate this lab?
 
-
+5
 
 
 2. What was the hardest part of this lab?
 
-
+Having no starting code right off the bat definitely made it a lot harder than all the previous labs.
+A lot more trial and error and mistakes made along the way when the training wheels come off.
 
 
 
